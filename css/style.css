@@ -344,3 +344,163 @@ body {
    display: block;
    color: #fff;
 }
+
+.blog {
+   margin-bottom: 100px;
+}
+
+.blog-title {
+   font-weight: 300;
+   font-size: 32px;
+   line-height: 38px;
+   text-transform: uppercase;
+   color: #040404;
+   margin-bottom: 30px;
+}
+
+.blog-item-img {
+   margin-bottom: 20px;
+}
+
+.blog-item-title {
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 23px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   min-height: 46px;
+}
+
+.blog-item-text {
+   margin-bottom: 10px;
+}
+
+.blog-item-link {
+   font-size: 12px;
+   line-height: 120%;
+   color: #363636
+}
+
+.blog-slider {
+   position: relative;
+   padding-top: 50px;
+   margin-bottom: 100px;
+}
+
+.blog-btn {
+   position: absolute;
+   top: 0;
+   left: 50%;
+   cursor: pointer;
+}
+
+.swiper-button-left {
+   transform: translateX(-41px);
+}
+
+.swiper-button-right {
+   transform: translateX(8px);
+}
+
+.blog-quote {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 20px;
+}
+
+.blog-quote-box {
+   flex-basis: 434px;
+}
+
+.blockquote {
+   margin-bottom: 30px;
+}
+
+.blockquote-name {
+   font-weight: 700;
+   margin-bottom: 10px;
+}
+
+.blockquote-name span {
+   display: block;
+   font-size: 12px;
+   color: #9F6B08;
+   margin-bottom: 3px;
+}
+
+.blockquote-text {
+   font-style: italic;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 120%;
+   color: #040404;
+   margin-top: 10px;
+}
+
+.footer {
+   padding: 100px 0 80px;
+   background-color: #363636;
+   color: #ffffff;
+}
+
+.footer-title {
+   font-style: normal;
+   font-weight: 300;
+   font-size: 32px;
+   line-height: 38px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+
+.footer-top {
+   display: flex;
+   justify-content: space-between;
+   gap: 0 20px;
+}
+
+.footer-info-item {
+   margin-bottom: 40px;
+}
+
+.footer-info-item dt,
+.footer-address-title {
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 120%;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.footer-info-item dd {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   margin-bottom: 10px;
+}
+
+.social-list {
+   display: flex;
+   gap: 0 20px;
+   align-items: center;
+}
+
+.footer-address {
+   flex-basis: 462px;
+}
+
+.footer-address-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   margin-bottom: 20px;
+}
+
+.footer-bottom{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+#map{
+   height: 250px;
+}
